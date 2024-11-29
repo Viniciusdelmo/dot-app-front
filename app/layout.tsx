@@ -1,6 +1,5 @@
 import './globals.css';
 
-import { GeistSans } from 'geist/font/sans';
 
 let title = 'Dot app';
 let description =
@@ -24,7 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={GeistSans.variable}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
