@@ -1,5 +1,5 @@
-// const API_BASE_URL = "http://localhost:8080/api/user";
-const API_BASE_URL = "http://RH-Server-LB-813518549.us-east-1.elb.amazonaws.com/api/timesheet";
+const API_BASE_URL = "http://localhost/api/user";
+// const API_BASE_URL = "http://RH-Server-LB-813518549.us-east-1.elb.amazonaws.com/api/timesheet";
 
 const userService = {
     async findAll() {
