@@ -13,6 +13,9 @@ RUN npm install
 # Copia o restante do código para o container
 COPY . .
 
+# Gera o build da aplicação Next.js
+RUN npm run build
+
 # Build da aplicação (opcional, se você quer executar em modo produção)
 RUN npm run build
 
