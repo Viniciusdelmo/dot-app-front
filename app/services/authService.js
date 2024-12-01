@@ -1,4 +1,5 @@
-const API_BASE_URL = "http://localhost:8080/api/auth";
+// const API_BASE_URL = "http://localhost:8080/api/auth";
+const API_BASE_URL = "http://RH-Server-LB-813518549.us-east-1.elb.amazonaws.com/api/auth";
 import userService from 'app/services/userService';
 
 const authService = {
