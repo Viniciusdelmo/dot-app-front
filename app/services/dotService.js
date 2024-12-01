@@ -1,4 +1,4 @@
-const API_BASE_URL = "http://localhost/api/timesheet";
+const API_BASE_URL = "http://localhost/api/api/timesheet";
 // const API_BASE_URL = "http://RH-Server-LB-813518549.us-east-1.elb.amazonaws.com/api/timesheet";
 
 const dotService = {
